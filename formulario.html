@@ -7,7 +7,7 @@
     <meta name="viewport" content=
         "width=device-width, initial-scale=1.0">
     <title>
-        Build a Survey Form using HTML and CSS
+        Formulario Ana Karen
     </title>
  
     <style>
@@ -15,14 +15,14 @@
         /* Styling the Body element i.e. Color,
         Font, Alignment */
         body {
-            background-color: #05c46b;
+            background-color: #0522c4;
             font-family: Verdana;
             text-align: center;
         }
  
         /* Styling the Form (Color, Padding, Shadow) */
         form {
-            background-color: #fff;
+            background-color: rgb(240, 7, 7);
             max-width: 500px;
             margin: 50px auto;
             padding: 30px 20px;
@@ -64,7 +64,7 @@
  
         /* Styling Button */
         button {
-            background-color: #05c46b;
+            background-color: #f79400;
             border: 1px solid #777;
             border-radius: 2px;
             font-family: inherit;
@@ -78,65 +78,74 @@
 </head>
   
 <body>
-    <h1>GeeksforGeeks Survey Form</h1>
+    <h1>Ana Karen Castro Garcia</h1>
   
     <!-- Create Form -->
     <form id="form">
  
         <!-- Details -->
         <div class="form-control">
-            <label for="name" id="label-name">
-                Name
+            <label for="nombre" id="label-nombre">
+                Nombre
             </label>
  
             <!-- Input Type Text -->
             <input type="text"
-                   id="name"
-                   placeholder="Enter your name" />
+                   id="nombre
+                   placeholder="Ingresa tu nombre" />
+        </div>
+        <div class="form-control">
+            <label for="lugar" id="label-lugar">
+                Lugar donde vives
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="lugar"
+                   placeholder="Ingresa la ciudad donde vives" />
         </div>
   
         <div class="form-control">
-            <label for="email" id="label-email">
-                Email
+            <label for="correo" id="label-correo">
+                Correo Electronico
             </label>
  
             <!-- Input Type Email-->
-            <input type="email"
-                   id="email"
-                   placeholder="Enter your email" />
+            <input type="correo"
+                   id="correo"
+                   placeholder="Ingresa tu correo electronico" />
         </div>
   
         <div class="form-control">
-            <label for="age" id="label-age">
-                Age
+            <label for="edad" id="label-edad">
+                Edad
             </label>
  
             <!-- Input Type Text -->
             <input type="text"
-                   id="age"
-                   placeholder="Enter your age" />
+                   id="edad"
+                   placeholder="Ingresa tu edad" />
         </div>
   
         <div class="form-control">
             <label for="role" id="label-role">
-                Which option best describes you?
+                Cual opcion te describe mejor?
             </label>
              
             <!-- Dropdown options -->
             <select name="role" id="role">
-                <option value="student">Student</option>
-                <option value="intern">Intern</option>
+                <option value="estudiante">Estudiante</option>
+                <option value="interno">Interno</option>
                 <option value="professional">
                     Professional
                 </option>
-                <option value="other">Other</option>
+                <option value="Otro">Otro</option>
             </select>
         </div>
   
         <div class="form-control">
             <label>
-                Would you recommend GeeksforGeeks
-                to a friend?
+               Recomendaria utilizar formulario a los demas?
             </label>
  
             <!-- Input Type Radio Button -->
@@ -150,16 +159,11 @@
                        id="recommed-2"
                        name="recommed">No</input>
             </label>
-            <label for="recommed-3">
-                <input type="radio"
-                       id="recommed-3"
-                       name="recommed">Maybe</input>
-            </label>
         </div>
   
         <div class="form-control">
-            <label>Languages and Frameworks known
-                <small>(Check all that apply)</small>
+            <label> Lenguajes y Frameworks conocidos
+                <small>(Marque todo lo que corresponda)</small>
             </label>
             <!-- Input Type Checkbox -->
             <label for="inp-1">
@@ -180,23 +184,11 @@
             <label for="inp-6">
                 <input type="checkbox"
                        name="inp">JavaScript</input></label>
-            <label for="inp-7">
-                <input type="checkbox"
-                       name="inp">React</input></label>
-            <label for="inp-7">
-                <input type="checkbox"
-                       name="inp">Angular</input></label>
-            <label for="inp-7">
-                <input type="checkbox"
-                       name="inp">Django</input></label>
-            <label for="inp-7">
-                <input type="checkbox"
-                       name="inp">Spring</input></label>
         </div>
   
         <div class="form-control">
             <label for="comment">
-                Any comments or suggestions
+                Cualquier comentario o sugerencia
             </label>
  
             <!-- multi-line text input control -->
@@ -206,8 +198,8 @@
         </div>
   
         <!-- Multi-line Text Input Control -->
-        <button type="submit" value="submit">
-            Submit
+        <button type="enviar" value="enviar">
+            Enviar
         </button>
     </form>
 </body>
